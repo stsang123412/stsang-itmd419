@@ -19,14 +19,14 @@ These are the steps:
 inside of ``index.cshtml.cs`` via ``asp-for="Temperature"``.
 * Oh yeah, we also made a little ``<p>`` text area for our message variable.
   4. Now we need to take that user input and **DO** something with it. (backend?)
-    1. First Step
+    - First Step
         * We first make a ``public class Msg`` variable that has a **get** and **private set**. We need to be able to get the Msg as well as not letting anyone else set it. (private).
         * Okay that's done. Now we do the same thing for ``public class Temperature``. Same get + set, except set is not private this time. The form needs to be able to set the value.
-    2. Second Step
+    - Second Step
         * Now the fun ``OnGet()`` and ``OnPost()`` methods. Refer to [here.](https://www.mikesdotnetting.com/article/308/razor-pages-understanding-handler-methods)
         * ``OnGet()`` contains the ``Msg`` variable which contains the preset string / message we set for the user.
         * ``OnPost()`` is what happens after the user hits that juicy, sweet, submit button. (Takes the user input and converts it)
-    3. OnPost()
+    - OnPost()
       * Alright, this is the meaty part of the program. 
       * After the user hits the submit button, their value is entered into ``string s = Temperature;`` (Entered in s)
       * Now we have a class ``TempConverter`` with the function ``ChangeF2C(string Temperature)`` which takes the string input ``s`` and shoves it into a Temperature variable to work with.
