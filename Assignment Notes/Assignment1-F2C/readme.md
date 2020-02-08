@@ -10,9 +10,9 @@ These are the steps:
 ![alt text](https://github.com/stsang123412/stsang-itmd419/blob/master/Assignment%20Notes/Assignment1-F2C/images/1-project-directory.png "1-project-directory.png")
 
 4. Nice right? So now we need to create the actual functioning front end of our site. The actual page using using Razor/Razer pages.
-  1. How do we do this?
-  2. Well first we need to create the actual form to get user data. We do this in the ``index.cshtml`` file. 
-    * (Yes it's a pain in the ass to look for. One's ``.cshtml``, other is ``.cshtml.cs``) Use the Solution Explorer on the right side of the IDE.
+* How do we do this?
+* Well first we need to create the actual form to get user data. We do this in the ``index.cshtml`` file. 
+* (Yes it's a pain in the ass to look for. One's ``.cshtml``, other is ``.cshtml.cs``) Use the Solution Explorer on the right side of the IDE.
   3. Great, now pull up the ``index.cshtml`` file and now we can start editing. Here's our front end (single web page)
     ![alt text](https://github.com/stsang123412/stsang-itmd419/blob/master/Assignment%20Notes/Assignment1-F2C/images/2-index.cshtml.png "2-index.cshtml")
   * Here's the code for it. As you can see, I created a ``<form>`` which posts the user input (string) into the **Temperature** variable 
