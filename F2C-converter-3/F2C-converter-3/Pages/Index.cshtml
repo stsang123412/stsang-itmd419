@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Stephan Tsang - Temperature Converter</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Assignment 1 of ITMD 419</p>
+</div>
+
+<div>
+    <!-- Create a form for taking in temperature data -->
+    <!--
+        if I don't have the namespace:
+
+                        using System.ComponentModel.DataAnnotations;
+        then I need:
+                        <form action="/" method="post">
+                        <form method="post">
+        why do i need to remove the     action="/" part?
+                posting to "/", it posted to the page where it came from
+    -->
+
+    <form method="post">
+        <label> Enter temperature here. </label>
+        <input type="text" asp-for="Temperature" value="" />
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<p>
+    @Model.Msg
+</p>
