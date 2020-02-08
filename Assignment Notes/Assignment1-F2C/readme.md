@@ -32,13 +32,13 @@ These are the steps:
       * Now we have a class ``TempConverter`` with the function ``ChangeF2C(string Temperature)`` which takes the string input ``s`` and shoves it into a Temperature variable to work with.
         ![alt text](https://github.com/stsang123412/stsang-itmd419/blob/master/Assignment%20Notes/Assignment1-F2C/images/3-temperatureConverter-class.png "3-temperatureConverter-class")
       * Read the //comments
-    5. Final step?
-      * So finally, we've passed the value(s) as a tuple.
-        ![alt text](https://github.com/stsang123412/stsang-itmd419/blob/master/Assignment%20Notes/Assignment1-F2C/images/4-final-process.png "4-final-process")
-      * ``if(PassedOrNot)`` which is a boolean, is true; 
-        * execute the message with their conversion. take note of the ${} string passing / concatonation thing. 
-      * else...
-        * Not valid
+  5. Final step?
+    * So finally, we've passed the value(s) as a tuple.
+      ![alt text](https://github.com/stsang123412/stsang-itmd419/blob/master/Assignment%20Notes/Assignment1-F2C/images/4-final-process.png "4-final-process")
+    * ``if(PassedOrNot)`` which is a boolean, is true; 
+      * execute the message with their conversion. take note of the ${} string passing / concatonation thing. 
+    * else...
+      * Not valid
       
 
 
