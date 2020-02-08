@@ -7,7 +7,7 @@ These are the steps:
 2. Created a new project called ``F2C-converter-3``. It was the third one because the first two wasn't razer pages. (Was react and something else.)  
 
 3. Now we've created our project directory:
-    ![alt text](https://github.com/stsang123412/stsang-itmd419/blob/master/Assignment%20Notes/Assignment1-F2C/images/1-project-directory.png "1-project-directory.png")
+![alt text](https://github.com/stsang123412/stsang-itmd419/blob/master/Assignment%20Notes/Assignment1-F2C/images/1-project-directory.png "1-project-directory.png")
 
 4. Nice right? So now we need to create the actual functioning front end of our site. The actual page using using Razor/Razer pages.
   1. How do we do this?
@@ -15,9 +15,9 @@ These are the steps:
     * (Yes it's a pain in the ass to look for. One's ``.cshtml``, other is ``.cshtml.cs``) Use the Solution Explorer on the right side of the IDE.
   3. Great, now pull up the ``index.cshtml`` file and now we can start editing. Here's our front end (single web page)
     ![alt text](https://github.com/stsang123412/stsang-itmd419/blob/master/Assignment%20Notes/Assignment1-F2C/images/2-index.cshtml.png "2-index.cshtml")
-    * Here's the code for it. As you can see, I created a ``<form>`` which posts the user input (string) into the **Temperature** variable 
-    inside of ``index.cshtml.cs`` via ``asp-for="Temperature"``.
-    * Oh yeah, we also made a little ``<p>`` text area for our message variable.
+  * Here's the code for it. As you can see, I created a ``<form>`` which posts the user input (string) into the **Temperature** variable 
+  inside of ``index.cshtml.cs`` via ``asp-for="Temperature"``.
+  * Oh yeah, we also made a little ``<p>`` text area for our message variable.
   4. Now we need to take that user input and **DO** something with it. (backend?)
     1. First Step
         * We first make a ``public class Msg`` variable that has a **get** and **private set**. We need to be able to get the Msg as well as not letting anyone else set it. (private).
