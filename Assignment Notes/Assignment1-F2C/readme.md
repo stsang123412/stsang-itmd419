@@ -40,6 +40,8 @@ These are the steps:
     * execute the message with their conversion. take note of the ${} string passing / concatonation thing. 
   * else...
     * Not valid
+![alt text](https://github.com/stsang123412/stsang-itmd419/blob/master/Assignment%20Notes/Assignment1-F2C/images/4-final-process.png "4-final-process")
+
       
 
 
