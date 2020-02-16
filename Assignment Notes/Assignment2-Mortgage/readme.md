@@ -3,6 +3,9 @@
 * Principal
 * Interest Rate
 * Number of Years 
+After finishing with the code portion of this project, the next step will be to deploy the application onto a Free tier Azure website:  
+
+**https://mortgage-proj2-stsang20200216075203.azurewebsites.net/**
 
 ## Walkthrough
 1. When the application is first launched, the user will see the single razor page with 3 fields: ``Principal``, ``Years``, and ``Interest``.  
