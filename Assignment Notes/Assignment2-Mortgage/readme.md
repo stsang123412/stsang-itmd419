@@ -2,7 +2,7 @@
 **Objective:** To modify the previous project ``F2C-converter3`` and create a mortgage calculator which takes:  
 * Principal
 * Interest Rate
-* Number of Years 
+* Number of Years  
 After finishing with the code portion of this project, the next step will be to deploy the application onto a Free tier Azure website:  
 
 **https://mortgage-proj2-stsang20200216075203.azurewebsites.net/**
