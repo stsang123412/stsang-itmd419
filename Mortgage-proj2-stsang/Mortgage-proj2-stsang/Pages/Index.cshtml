@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Mortgage Project 2 - Stsang</h1>
+    <p>Assignment 2 of ITMD 419</p>
+</div>
+
+<div class="customFormDiv">
+    <!-- Create a form for taking in user data -->
+    <form method="post">
+        <label>Principal: </label>
+        <input type="text" name="principalString" />
+
+        <label>Years: </label>
+        <input type="text" name="yearString" />
+
+        <label>Interest: </label>
+        <input type="text" name="rateString" />
+        
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<p>
+    @Model.Msg
+</p>
